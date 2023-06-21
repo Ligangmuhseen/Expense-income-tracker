@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    min-width: 0px;
+}
+
+
+
+.container {
+display: flex;
+flex-direction: row; 
+}
+
+
+.leftside {
+    backdrop-filter: blur(5px);
+    background-image: url(../images/right.jpg);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+}
+
+.rightside {
+    background-image: url(../images/left.jpeg);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+}
+
+.login {
+    background-color: cadetblue;
+    width: 30%;
+    height: 5%;
+}
+p{
+    margin-bottom: 30px;
+}
+a {
+    margin-left: 10px;
+}
+.register {
+    background-color: cadetblue;
+    width:30%;
+    height: 5%;
+}
+
